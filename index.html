@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lagoona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -42,9 +44,9 @@
             </li>
           </ul>
         </nav>
-        <div class="navbar-link">
-          <a href="">Хочу тур</a>
-          <a href="">Обратный звонок</a>
+        <div class="navbar-btn">
+          <button class="btn">Хочу тур</button>
+          <button class="btn">Обратный звонок</button>
         </div>
       </div>
     </div>
@@ -55,18 +57,18 @@
       <section class="offers">
         <h2 class="title">Спецпредложения</h2>
         <ul class="offers-list">
-          <li class="offers-item">
+          <li class="offers-item item1">
             <strong class="offers-title">Мальдивские острова</strong>
             <span class="offers-price">от 55 000 р</span>
             <a class="offers-link more-link" href="">Подробнее</a>
           </li>
-          <li class="offers-item">
+          <li class="offers-item item2">
             <strong class="offers-title">Горящий тур на остров Крит</strong>
             <span class="offers-price">от 30 000 р</span>
             <a class="offers-link more-link" href="">Подробнее</a>
           </li>
           <li class="offers-item big">
-            <strong class="offers-title">Номера категории люкс</strong>
+            <strong class="offers-title big-title">Номера категории люкс</strong>
             <span class="offers-price">от 5000 р</span>
             <a class="offers-link more-link" href="">Подробнее</a>
           </li>
@@ -74,7 +76,7 @@
       </section>
       <section id="about" class="about">
         <h2 class="title">О нас</h2>
-        <p class="about-description">Идейные соображения высшего порядка, а также сложившаяся структура организации
+        <p class="about-desc">Идейные соображения высшего порядка, а также сложившаяся структура организации
           влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
           Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет
           собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным
@@ -139,185 +141,201 @@
         <h2 class="title">Размещение</h2>
         <ul class="hotels-list">
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel1.jpg" alt="Lagoona española">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel1.jpg" alt="Lagoona española">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">4 698 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">4 698 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona española</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona española</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star-empty.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star-empty.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel2.jpg" alt="Lagoona son típicas">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel2.jpg" alt="Lagoona son típicas">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">5 148 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">5 148 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona son típicas</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona son típicas</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star-empty.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star-empty.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel3.jpg" alt="Lagoona de la guerra">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel3.jpg" alt="Lagoona de la guerra">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">6 254 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">6 254 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona de la guerra</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona de la guerra</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel4.jpg" alt="Lagoona mentira piadosa">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel4.jpg" alt="Lagoona mentira piadosa">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">6 320 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">6 320 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona mentira piadosa</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona mentira piadosa</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel5.jpg" alt="Lagoona empujar la creatividad">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel5.jpg" alt="Lagoona empujar la creatividad">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">6 457 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">6 457 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona empujar la creatividad</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona empujar la creatividad</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star-empty.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star-empty.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel6.jpg" alt="Lagoona el retorno">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel6.jpg" alt="Lagoona el retorno">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">6 320 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">6 320 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona el retorno</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona el retorno</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star-empty.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star-empty.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel7.jpg" alt="Lagoona mentira piadosa">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel7.jpg" alt="Lagoona mentira piadosa">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">6 505 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">6 505 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona mentira piadosa</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona mentira piadosa</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
           </li>
           <li class="hotels-item">
-            <a class="hotel-img" href="">
-              <img src="img/hotels/hotel8.jpg" alt="Lagoona suerte siguió siempre">
+            <a href="">
+              <img class="hotel-img" src="img/hotels/hotel8.jpg" alt="Lagoona suerte siguió siempre">
             </a>
-            <div class="hotel-data">
-              <div class="hotel-price">
-                <span class="ligth">от</span>
-                <span class="bold">6 824 р</span>
-                <span class="normal">/ ночь</span>
+            <div class="hotel-info">
+              <div class="hotel-data">
+                <div class="hotel-price">
+                  <span class="ligth">от</span>
+                  <span class="bold">6 824 р</span>
+                  <span class="normal">/ ночь</span>
+                </div>
+                <div class="hotel-name normal">Lagoona suerte siguió siempre</div>
+                <div class="hotel-place ligth">Барселона, Испания</div>
               </div>
-              <div class="hotel-name normal">Lagoona suerte siguió siempre</div>
-              <div class="hotel-place ligth">Барселона, Испания</div>
-            </div>
-            <div class="stars">
-              <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star.svg" alt="">
-              <img src="img/star-empty.svg" alt="">
+              <div class="stars">
+                <img src="img/star.svg" alt="Рейтинг отеля 4 из 5">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star.svg" alt="">
+                <img src="img/star-empty.svg" alt="">
+              </div>
             </div>
             <a class="rooms" href="">Номера</a>
+          </li>
+          <li class="hotels-item hotels-more">
+            <a href="" class="all-hotels more-link">Посмотреть все варианты</a>
           </li>
         </ul>
-        <div class="hotels-item">
-          <a href="" class="all-hotels more-link">Посмотреть все варианты</a>
-        </div>
 
       </section>
     </div>
