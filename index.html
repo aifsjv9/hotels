@@ -347,6 +347,120 @@
         </ul>
 
       </section>
+      <section class="wont">
+        <div class="rectangle">
+          <h2 class="title title-wont">Хочу тур</h2>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="quick-booking">
+            <div class="field-box">
+              <label for="city" class="field-desc drop-list">Город вылета</label>
+              <select name="city" id="city" class="field">
+                <option>Санкт-Петербург</option>
+                <option>Москва</option>
+                <option>Брянск</option>
+                <option>Смоленск</option>
+                <option>Кострома</option>
+              </select>
+            </div>
+            <div class="field-box">
+              <label for="country" class="field-desc drop-list">Страна</label>
+              <select name="country" id="country" class="field">
+                <option>Россия</option>
+                <option>Австралия</option>
+                <option>Белоруссия</option>
+                <option>США</option>
+                <option>Болгария</option>
+              </select>
+            </div>
+            <div class="field-box">
+              <label for="date" class="field-desc">Дата прибытия</label>
+              <input type="date" name="date" id="date" class="field">
+            </div>
+            <div class="field-box">
+              <label for="nights" class="field-desc">Ночей</label>
+              <input type="number" value="6" name="nights" id="nights" class="field number">
+            </div>
+            <div class="field-box box-last">
+              <label for="tiurists" class="field-desc">Туристы</label>
+              <input type="number" required value="2" name="tourists" id="tourists" class="field number">
+            </div>
+            <button type="submit" class="btn wont-btn">Найти</button>
+          </form>
+        </div>
+      </section>
+      <section class="contacts">
+        <h2 class="title title-contacts">Контакты</h2>
+        <div class="contacts-inner">
+          <div class="contacts-box">
+            <div class="contacts-item contact-top">
+              <h3 class="contact-name">Адрес</h3>
+              <address class="contact-data">Москва, улица Юности, дом 5 строение 4, офис 2</address>
+            </div>
+            <div class="contacts-item">
+              <h3 class="contact-name">Телефоны</h3>
+              <div class="contact-data">
+                <a href="tel:+74995356434" class="links contact-link">+7 (499) 535-64-34</a>
+                <a href="tel:+74950050544" class="links contact-link">+7 (495) 005-05-44</a>
+              </div>
+            </div>
+            <div class="contacts-item">
+              <h3 class="contact-name">E-mail</h3>
+              <div class="contact-data">
+                <a href="mailto:lg.oona@mail.ru" class="links contact-link">lg.oona@mail.ru</a>
+                <p class="light contact-link">по вопросам бронирования</p>
+                <a href="mailto:hotels.ln@mail.ru" class="links contact-link">hotels.ln@mail.ru</a>
+                <p class="light contact-link">по вопросам сотрудничества</p>
+              </div>
+            </div>
+            <div class="contacts-item">
+              <h3 class="contact-name">График</h3>
+              <div class="contact-data">Понедельник - пятница, с 10:00 до 19:00</div>
+            </div>
+            <button class="btn contacts-btn">Построить маршрут</button>
+          </div>
+          <div class="contacts-img"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-text">
+          <div class="copy">
+            © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»
+          </div>
+          <p class="footer-desc">
+            Представленная на сайте информация носит справочный характер и не является публичной офертой
+          </p>
+          <a href="" class="links terms">Пользовательское соглашение</a>
+        </div>
+        <div class="footer-contacts">
+          <address class="footer-address">11710, улица Юности, дом 5 строение 4, офис 2</address>
+          <div class="tel">
+            <a href="tel:+74995356434" class="links contact-link">+7 (499) 535-64-34</a>
+            <a href="tel:+74950050544" class="links contact-link">+7 (495) 005-05-44</a>
+          </div>
+          <div class="mail">
+            <a href="mailto:lg.oona@mail.ru" class="links contact-link">lg.oona@mail.ru</a>
+            <a href="mailto:hotels.ln@mail.ru" class="links contact-link">hotels.ln@mail.ru</a>
+            <span class="sun"></span>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="" class="social-icon">
+            <img src="img/socials/booking.svg" alt="Booking" class="booking">
+          </a>
+          <a href="" class="social-icon">
+            <img src="img/socials/twitter.svg" alt="Twitter" class="twitter">
+          </a>
+          <a href="" class="social-icon">
+            <img src="img/socials/facebook.svg" alt="Facebook" class="facebook">
+          </a>
+          <a href="" class="social-icon">
+            <img src="img/socials/vk.svg" alt="VK" class="vk">
+          </a>
+          <a href="" class="social-icon">
+            <img src="img/socials/instagram.svg" alt="Instagram" class="insta">
+          </a>
+        </div>
+      </footer>
     </div>
   </main>
 
